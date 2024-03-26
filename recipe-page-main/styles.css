@@ -24,8 +24,7 @@ img{
 }
 body{
     background-color: hsl(30, 54%, 90%);
-
-    
+     
 }
 
 h1{
@@ -43,8 +42,8 @@ h2{
     font-family: YoungSerif;
     color: hsl(14, 45%, 36%);
     justify-content: flex-start;
-    font-weight: 400;
     margin-left: 5%;
+    margin-bottom: 0%;
 }
 
 .roxo{
@@ -68,13 +67,37 @@ p{
     justify-content: flex-start;
     text-align: justify;
     align-items: flex-start;
+    font-family: Outfit;
+    padding: 10px;
+    
 
+}
+
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .importante::marker {
+    color: hsl(332, 51%, 32%);
+  }
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+}
+
+  ul{
+    padding-left: 0%;
 }
 
 .fundo{
     background: #fff;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
     max-width: 800px;
     border-radius: 25px;
     padding-top: 25px;
@@ -82,7 +105,7 @@ p{
 }
 
 .preparation{
-    background-color: hsl(332, 51%, 32%, 0.2) ;
+    background-color: hsla(332, 51%, 32%, 0.096) ;
     display:block;
     border-radius: 5px;
     width: 90%;
@@ -101,10 +124,10 @@ table {
   
 td:nth-child(even) {
     border-right: none;
+    color: hsl(14, 45%, 36%);
+
 }
-tr:nth-last-child(){
-    border-bottom: none;
-}
+
 td {
     margin-left: 50%;
     border: 1px solid #dddddd;
